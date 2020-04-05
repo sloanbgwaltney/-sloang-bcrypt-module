@@ -2,12 +2,13 @@
   "name": "@sloang/bcrypt-module",
   "version": "1.0.0",
   "description": "A customizable wrapper module to inject a bcrypt service into your nestjs modules",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "readme": "README.md",
   "scripts": {
     "test": "jest",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "nest build"
   },
   "keywords": [
     "nestjs",
