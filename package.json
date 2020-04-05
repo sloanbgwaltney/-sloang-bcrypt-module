@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A customizable wrapper module to inject a bcrypt service into your nestjs modules",
   "main": "./dist/index.js",
+  "private": false,
   "readme": "README.md",
   "scripts": {
     "test": "jest",
