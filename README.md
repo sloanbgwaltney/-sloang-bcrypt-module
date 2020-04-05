@@ -94,11 +94,11 @@ export class BcryptService implements IBcryptService {
 
 ## Change Log
 
-See [Changelog](CHANGELOG.md) for more information.
+See [Changelog](https://github.com/sloanbgwaltney/-sloang-bcrypt-module/blob/master/CHANGELOG.md) for more information.
 
 ## Contributing
 
-Contributions welcome! See [Contributing](CONTRIBUTING.md).
+Contributions welcome! See [Contributing](https://github.com/sloanbgwaltney/-sloang-bcrypt-module/blob/master/CONTRIBUTING.md).
 
 ## Author
 
@@ -106,4 +106,4 @@ Contributions welcome! See [Contributing](CONTRIBUTING.md).
 
 ## License
 
-Licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Licensed under the MIT License - see the [LICENSE](https://github.com/sloanbgwaltney/-sloang-bcrypt-module/blob/master/LICENSE) file for details.
