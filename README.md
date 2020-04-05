@@ -30,9 +30,8 @@ export class AppModule {}
 Doing this will expose a BcryptService for the scope of that module to use. Use by injecting the service using the constraints object
 
 ```ts
-import { constraints } from "@sloang/bcrypt-module";
+import { constraints, IBcryptService } from "@sloang/bcrypt-module";
 import { Inject } from '@nestjs/common';
-import { IBcryptService } from "@sloang/bcrypt-module";
 
 @Controller('/')
 export class AppControler {
