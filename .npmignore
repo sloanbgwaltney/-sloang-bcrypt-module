@@ -3,6 +3,6 @@
 .prettierrc
 nest-cli.json
 tslint.json
-./src
+/src
 tsconfig.json
 tsconfig.build.json
