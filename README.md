@@ -87,11 +87,11 @@ export class BcryptService implements IBcryptService {
 
 * Module Options
     * bcrypt (required) - The bcrypt lib you are using
-    * bcryptService (optional) - a custom service to overridden the default injected service
+    * bcryptService (optional) - a custom service to override the default injected service
 * BcryptService
     * hash(plainText: string, salt: string | number) returns the hash in a promise
-    * compare(plainText: string, hash: string) returns true or false in a promise depending on if the plainText string matches the hash
-    * genSalt(rounds: number) returns a salt string in a promise
+    * compare(plainText: string, hash: string) returns true or false in a promise depending on if the plainText string relates to the hash
+    * genSalt(rounds: number) returns the salt string in a promise
 
 ## Change Log
 
